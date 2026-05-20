@@ -1,0 +1,51 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "堰水谣",
+      "artist": "AI创作",
+      "tags": ["古风", "民歌", "都江堰"],
+      "bpm": 65,
+      "key_scale": "C宫调",
+      "audio_url": "/1-堰水谣/堰水谣.mp3",
+      "cover_url": "",
+      "duration": 225,
+      "lyrics": "[00:00.00]堰水谣\n[00:05.00]词：AI创作\n[00:10.00]曲：ACE-Step\n[00:15.00]\n[00:20.00]岷江滚滚向东流\n[00:25.00]都江古堰几千秋\n[00:30.00]水润天府粮仓满\n[00:35.00]鱼嘴分江万古流\n[00:40.00]\n[00:45.00]风吹竹海声声慢\n[00:50.00]笛音袅袅入云端\n[00:55.00]古风今韵相辉映\n[01:00.00]一曲高歌颂川蜀",
+      "play_count": 12580,
+      "like_count": 2890,
+      "download_url": "/1-堰水谣/堰水谣.mp3",
+      "platform_links": {
+        "netease": "#",
+        "qq": "#",
+        "bilibili": "#"
+      },
+      "lyrics_by": "AI创作",
+      "music_by": "ACE-Step",
+      "vocals": "合成",
+      "created_at": "2026-05-17",
+      "folder": "1-堰水谣"
+    },
+    {
+      "id": 2,
+      "title": "测试音乐",
+      "artist": "AI创作",
+      "tags": ["古风", "测试"],
+      "bpm": 65,
+      "key_scale": "C宫调",
+      "audio_url": "/测试音乐.mp3",
+      "cover_url": "",
+      "duration": 180,
+      "lyrics": "[00:00.00]测试歌词\n[00:05.00]词：AI创作\n[00:10.00]曲：ACE-Step\n[00:15.00]\n[00:20.00]这是测试歌曲\n[00:25.00]用于验证播放功能",
+      "play_count": 100,
+      "like_count": 10,
+      "download_url": "/测试音乐.mp3",
+      "platform_links": {},
+      "lyrics_by": "AI创作",
+      "music_by": "ACE-Step",
+      "vocals": "合成",
+      "created_at": "2026-05-17",
+      "folder": ""
+    }
+  ],
+  "updated_at": "2026-05-19"
+}

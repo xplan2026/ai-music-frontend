@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>都江堰 - 古风民歌</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #f093fb, #f5576c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            color: #a0a0a0;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .player {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        audio {
+            width: 100%;
+            outline: none;
+        }
+        audio::-webkit-media-controls-panel {
+            background: linear-gradient(90deg, #f093fb, #f5576c);
+        }
+        .lyrics {
+            text-align: left;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 13px;
+            line-height: 1.8;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .lyrics::-webkit-scrollbar {
+            width: 6px;
+        }
+        .lyrics::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 3px;
+        }
+        .lyrics-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #f093fb;
+        }
+        .lyrics p {
+            margin: 5px 0;
+            color: #d0d0d0;
+        }
+        .lyrics .chorus {
+            color: #f5576c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 堰水谣</h1>
+        <p class="subtitle">ACE-Step 生成的古风民歌</p>
+        
+        <div class="player">
+            <audio id="audioPlayer" controls>
+                <source src="1-堰水谣/堰水谣.mp3" type="audio/mpeg">
+                您的浏览器不支持音频播放
+            </audio>
+        </div>
+        
+        <div class="lyrics">
+            <div class="lyrics-title">📜 歌词</div>
+            <p class="chorus">岷江滚滚下青天，李冰持锸立云边。</p>
+            <p class="chorus">分江两道穿沙堰，灌溉西川万亩田。</p>
+            <p class="chorus">竹笼沉底波心定，杩槎横波水势偏。</p>
+            <p class="chorus">春耕秋获歌盈野，千载丰穰颂禹贤。</p>
+            <br>
+            <p class="chorus">哎~ 堰水清咧，润良田</p>
+            <p class="chorus">哎~ 笛声扬咧，笑开颜</p>
+            <p class="chorus">千古功业传人间，蜀地春满赛神仙</p>
+            <br>
+            <p class="chorus">哎~ 堰水长咧，福万年</p>
+            <p class="chorus">哎~ 笛声亮咧，绕云边</p>
+            <p class="chorus">都江遗泽暖心田，岁岁丰收乐绵绵</p>
+            <br>
+            <p class="chorus">笛声穿柳惊飞鹭，堰水溅花湿画船。</p>
+            <p class="chorus">离堆月冷霜华满，宝瓶口暖稻香连。</p>
+            <p class="chorus">功在千秋名不朽，蜀人长拜二王前。</p>
+        </div>
+    </div>
+</body>
+</html>
